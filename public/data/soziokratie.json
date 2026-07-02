@@ -1,0 +1,95 @@
+[
+  {
+    "imageSrc": "/images/Soziokratie/Soziokratie_1.svg",
+    "commentSource": "/images/Soziokratie_Comments/Soziokratie_Comment_1.svg",
+    "question": {
+      "questionText": null,
+      "answer1": null,
+      "answer2": null,
+      "questionPosition": null
+    }
+  },
+  {
+    "imageSrc": "/images/Soziokratie/Soziokratie_2.svg",
+    "commentSource": null,
+    "question": {
+      "questionText": null,
+      "answer1": null,
+      "answer2": null,
+      "questionPosition": null
+    }
+  },
+  {
+    "imageSrc": "/images/Soziokratie/Soziokratie_3.svg",
+    "commentSource": null,
+    "question": {
+      "questionText": "Was ist ein zentrales Prinzip der Soziokratie?",
+      "answer1": "Konsent-Entscheidungen in Kreisen",
+      "answer2": "Mehrheitsentscheidung durch Abstimmung",
+      "questionPosition": {
+        "x": 100,
+        "y": 100
+      }
+    }
+  },
+  {
+    "imageSrc": "/images/Soziokratie/Soziokratie_4.svg",
+    "commentSource": null,
+    "question": {
+      "questionText": null,
+      "answer1": null,
+      "answer2": null,
+      "questionPosition": null
+    }
+  },
+  {
+    "imageSrc": "/images/Soziokratie/Soziokratie_5.svg",
+    "commentSource": null,
+    "question": {
+      "questionText": null,
+      "answer1": null,
+      "answer2": null,
+      "questionPosition": null
+    }
+  },
+  {
+    "imageSrc": "/images/Soziokratie/Soziokratie_6.svg",
+    "commentSource": "/images/Soziokratie_Comments/Soziokratie_Comment_6.svg",
+    "question": {
+      "questionText": null,
+      "answer1": null,
+      "answer2": null,
+      "questionPosition": null
+    }
+  },
+  {
+    "imageSrc": "/images/Soziokratie/Soziokratie_7.svg",
+    "commentSource": null,
+    "question": {
+      "questionText": null,
+      "answer1": null,
+      "answer2": null,
+      "questionPosition": null
+    }
+  },
+  {
+    "imageSrc": "/images/Soziokratie/Soziokratie_8.svg",
+    "commentSource": null,
+    "question": {
+      "questionText": null,
+      "answer1": null,
+      "answer2": null,
+      "questionPosition": null
+    }
+  },
+  {
+    "imageSrc": "/images/Soziokratie/Soziokratie_9.svg",
+    "commentSource": null,
+    "question": {
+      "questionText": null,
+      "answer1": null,
+      "answer2": null,
+      "questionPosition": null
+    }
+  }
+]
