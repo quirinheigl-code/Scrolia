@@ -1,0 +1,358 @@
+{
+  "items": [
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_1.svg",
+      "commentSource": "/images/Technokratie_Comments/Technokratie_Comment_1.svg",
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_2.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_3.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_4.svg",
+      "commentSource": "/images/Technokratie_Comments/Technokratie_Comment_4.svg",
+      "question": {
+        "questionText": "Würdest du von einem automatisierten Tagesrythmus profitieren?",
+        "answer1": "Ja",
+        "answer2": "Nein",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_5.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_6.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_7.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_8.svg",
+      "commentSource": "/images/Technokratie_Comments/Technokratie_Comment_8.svg",
+      "question": {
+        "questionText": "Würdest du synthetische Produkte konsumieren, wenn diese zum Klimaschutz beitragen?",
+        "answer1": "Ja",
+        "answer2": "Nein",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_9.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_10.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_11.svg",
+      "commentSource": "/images/Technokratie_Comments/Technokratie_Comment_11.svg",
+      "question": {
+        "questionText": "Was ist dir wichtiger: Effizienz oder Freiheit?",
+        "answer1": "Effizienz",
+        "answer2": "Freiheit",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_12.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_13.svg",
+      "commentSource": [
+        "/images/Technokratie_Comments/Technokratie_Comment_13-1.svg",
+        "/images/Technokratie_Comments/Technokratie_Comment_13-2.svg",
+        "/images/Technokratie_Comments/Technokratie_Comment_13-3.svg",
+        "/images/Technokratie_Comments/Technokratie_Comment_13-4.svg",
+        "/images/Technokratie_Comments/Technokratie_Comment_13-5.svg",
+        "/images/Technokratie_Comments/Technokratie_Comment_13-6.svg",
+        "/images/Technokratie_Comments/Technokratie_Comment_13-7.svg",
+        {
+          "src": "/images/Technokratie_Comments/Technokratie_Comment_13-8.svg",
+          "question": {
+            "questionText": "Sollte Kompetenz in demokratischen Entscheidungen eine größere Rolle spielen?",
+            "answer1": "Ja",
+            "answer2": "Nein",
+            "questionPosition": {
+              "x": 100,
+              "y": 100
+            }
+          }
+        },
+        "/images/Technokratie_Comments/Technokratie_Comment_13-9.svg"
+      ],
+      "question": {
+        "questionText": "Können Faktenchecks Wahrheit zuverlässig herstellen?",
+        "answer1": "Ja",
+        "answer2": "Nein",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_14.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_15.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_16.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_17.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_18.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_19.svg",
+      "commentSource": "/images/Technokratie_Comments/Technokratie_Comment_19.svg",
+      "question": {
+        "questionText": "Steigt oder sinkt deine Motivation, wenn Erfolg ausschließlich leistungsbasiert ist?",
+        "answer1": "Steigt",
+        "answer2": "Sinkt",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_20.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_21.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_22.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_23.svg",
+      "commentSource": "/images/Technokratie_Comments/Technokratie_Comment_23.svg",
+      "question": {
+        "questionText": "Was ist dir wichtiger Gesundheit oder Freiheit?",
+        "answer1": "Gesundheit",
+        "answer2": "Freiheit",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_24.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_25.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": "Soll der Klimaschutz stärker durch staatliche Planung gesteuert werden?",
+        "answer1": "Ja",
+        "answer2": "Nein",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Technokratie/Technokratie_26.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "src": "/images/Technokratie_Chapter/Technokratie_Chapter_1+2.svg",
+      "after": { "item": 1 },
+      "through": { "item": 2 }
+    },
+    {
+      "src": "/images/Technokratie_Chapter/Technokratie_Chapter_4+5.svg",
+      "after": { "item": 4 },
+      "through": { "item": 5 }
+    },
+    {
+      "src": "/images/Technokratie_Chapter/Technokratie_Chapter_8+9.svg",
+      "after": { "item": 8 },
+      "through": { "item": 9 }
+    },
+    {
+      "src": "/images/Technokratie_Chapter/Technokratie_Chapter_11+12.svg",
+      "after": { "item": 11 },
+      "through": { "item": 12 }
+    },
+    {
+      "src": "/images/Technokratie_Chapter/Technokratie_Chapter_13+13-1.svg",
+      "after": { "item": 13 },
+      "through": { "item": 13, "comment": 1 }
+    },
+    {
+      "src": "/images/Technokratie_Chapter/Technokratie_Chapter_13-9+14.svg",
+      "after": { "item": 13, "comment": 9 },
+      "through": { "item": 14 }
+    },
+    {
+      "src": "/images/Technokratie_Chapter/Technokratie_Chapter_19+20.svg",
+      "after": { "item": 19 },
+      "through": { "item": 20 }
+    },
+    {
+      "src": "/images/Technokratie_Chapter/Technokratie_Chapter_23+24.svg",
+      "after": { "item": 23 },
+      "through": { "item": 24 }
+    }
+  ],
+  "chapterMilestones": [
+    { "item": 1 },
+    { "item": 4, "comment": 1 },
+    { "item": 8, "comment": 1 },
+    { "item": 11, "comment": 1 },
+    { "item": 13, "comment": 1 },
+    { "item": 13, "comment": 9 },
+    { "item": 19, "comment": 1 },
+    { "item": 23, "comment": 1 }
+  ]
+}

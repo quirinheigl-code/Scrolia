@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_03_Ebene" data-name="03_Ebene" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 537.602786 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #009002;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #009002;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x="178.637099" y="418.091988" width="479.378088" height="487.389386" transform="translate(1080.112824 243.460538) rotate(90)"/>
+    <rect class="cls-1" x="119.478374" y="966.992197" width="597.772698" height="66.919242"/>
+    <rect class="cls-1" x="156.298531" y="901.475725" width="524.132383" height="65.516473"/>
+    <polygon class="cls-1" points="418.085416 416.975971 163.953362 416.975971 418.085416 162.843918 672.217469 416.975971 418.085416 416.975971"/>
+    <rect class="cls-1" x="178.637099" y="612.510038" width="479.378088" height="98.553285" transform="translate(1080.112824 243.460538) rotate(90)"/>
+    <rect class="cls-1" x="-15.780951" y="612.510038" width="479.378088" height="98.553285" transform="translate(885.694774 437.878588) rotate(90)"/>
+    <rect class="cls-1" x="147.093492" y="411.622919" width="542.542462" height="66.919242" transform="translate(836.729446 890.165079) rotate(-180)"/>
+  </g>
+  <g>
+    <rect class="cls-2" x="188.637099" y="408.091988" width="479.378088" height="487.389386" transform="translate(1080.112824 223.460538) rotate(90)"/>
+    <rect class="cls-2" x="129.478374" y="956.992197" width="597.772698" height="66.919242"/>
+    <rect class="cls-2" x="166.298531" y="891.475725" width="524.132383" height="65.516473"/>
+    <polygon class="cls-2" points="428.085416 406.975971 173.953362 406.975971 428.085416 152.843918 682.217469 406.975971 428.085416 406.975971"/>
+    <rect class="cls-2" x="188.637099" y="602.510038" width="479.378088" height="98.553285" transform="translate(1080.112824 223.460538) rotate(90)"/>
+    <rect class="cls-2" x="-5.780951" y="602.510038" width="479.378088" height="98.553285" transform="translate(885.694774 417.878588) rotate(90)"/>
+    <rect class="cls-2" x="157.093492" y="401.622919" width="542.542462" height="66.919242" transform="translate(856.729446 870.165079) rotate(-180)"/>
+  </g>
+</svg>

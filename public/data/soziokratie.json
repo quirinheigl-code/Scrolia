@@ -1,95 +1,317 @@
-[
-  {
-    "imageSrc": "/images/Soziokratie/Soziokratie_1.svg",
-    "commentSource": "/images/Soziokratie_Comments/Soziokratie_Comment_1.svg",
-    "question": {
-      "questionText": null,
-      "answer1": null,
-      "answer2": null,
-      "questionPosition": null
-    }
-  },
-  {
-    "imageSrc": "/images/Soziokratie/Soziokratie_2.svg",
-    "commentSource": null,
-    "question": {
-      "questionText": null,
-      "answer1": null,
-      "answer2": null,
-      "questionPosition": null
-    }
-  },
-  {
-    "imageSrc": "/images/Soziokratie/Soziokratie_3.svg",
-    "commentSource": null,
-    "question": {
-      "questionText": "Was ist ein zentrales Prinzip der Soziokratie?",
-      "answer1": "Konsent-Entscheidungen in Kreisen",
-      "answer2": "Mehrheitsentscheidung durch Abstimmung",
-      "questionPosition": {
-        "x": 100,
-        "y": 100
+{
+  "items": [
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_1.svg",
+      "commentSource": "/images/Soziokratie_Comments/Soziokratie_Comment_1.svg",
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_2.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_3.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_4.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_5.svg",
+      "commentSource": "/images/Soziokratie_Comments/Soziokratie_Comment_5.svg",
+      "question": {
+        "questionText": "Bist du lieber ständig zusammen als alleine zu sein?",
+        "answer1": "Zusammen",
+        "answer2": "Alleine",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_6.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_7.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_8.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_9.svg",
+      "commentSource": "/images/Soziokratie_Comments/Soziokratie_Comment_9.svg",
+      "question": {
+        "questionText": "Darf die Gemeinschaft über persönlichen Konsum entscheiden?",
+        "answer1": "Ja",
+        "answer2": "Nein",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_10.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_11.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_12.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_13.svg",
+      "commentSource": "/images/Soziokratie_Comments/Soziokratie_Comment_13.svg",
+      "question": {
+        "questionText": "Kannst du auf ein eigenes Fortbewegungsmittel verzichten?",
+        "answer1": "Ja",
+        "answer2": "Nein",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_14.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_15.svg",
+      "commentSource": [
+        "/images/Soziokratie_Comments/Soziokratie_Comment_15-1.svg",
+        "/images/Soziokratie_Comments/Soziokratie_Comment_15-2.svg",
+        "/images/Soziokratie_Comments/Soziokratie_Comment_15-3.svg",
+        "/images/Soziokratie_Comments/Soziokratie_Comment_15-4.svg",
+        "/images/Soziokratie_Comments/Soziokratie_Comment_15-5.svg",
+        "/images/Soziokratie_Comments/Soziokratie_Comment_15-6.svg",
+        {
+          "src": "/images/Soziokratie_Comments/Soziokratie_Comment_15-7.svg",
+          "question": {
+            "questionText": "Ist langsame Entscheidungsfindung ein fairer Preis für Gleichheit?",
+            "answer1": "Ja",
+            "answer2": "Nein",
+            "questionPosition": {
+              "x": 100,
+              "y": 100
+            }
+          }
+        },
+        "/images/Soziokratie_Comments/Soziokratie_Comment_15-8.svg"
+      ],
+      "question": {
+        "questionText": "Ist politische Beteiligung für sich eine Belastung oder ein Recht?",
+        "answer1": "Belastung",
+        "answer2": "Recht",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_16.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_17.svg",
+      "commentSource": "/images/Soziokratie_Comments/Soziokratie_Comment_17.svg",
+      "question": {
+        "questionText": "Kann Arbeit ohne Wettbewerb funktionieren?",
+        "answer1": "Ja",
+        "answer2": "Nein",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_18.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_19.svg",
+      "commentSource": "/images/Soziokratie_Comments/Soziokratie_Comment_19.svg",
+      "question": {
+        "questionText": "Liegt Ernährung in der Verantwortung der Gesellschaft oder des Einzelnen?",
+        "answer1": "Gesellschaft",
+        "answer2": "Einzelnen",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_20.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_21.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": "Ist weniger Wachstum ein Gewinn oder ein Verzicht?",
+        "answer1": "Gewinn",
+        "answer2": "Verzicht",
+        "questionPosition": {
+          "x": 100,
+          "y": 100
+        }
+      }
+    },
+    {
+      "imageSrc": "/images/Soziokratie/Soziokratie_22.svg",
+      "commentSource": null,
+      "question": {
+        "questionText": null,
+        "answer1": null,
+        "answer2": null,
+        "questionPosition": null
       }
     }
-  },
-  {
-    "imageSrc": "/images/Soziokratie/Soziokratie_4.svg",
-    "commentSource": null,
-    "question": {
-      "questionText": null,
-      "answer1": null,
-      "answer2": null,
-      "questionPosition": null
+  ],
+  "chapters": [
+    {
+      "src": "/images/Soziokratie_Chapter/Soziokratie_Chapter_1+2.svg",
+      "after": { "item": 1 },
+      "through": { "item": 2 }
+    },
+    {
+      "src": "/images/Soziokratie_Chapter/Soziokratie_Chapter_5+6.svg",
+      "after": { "item": 5 },
+      "through": { "item": 6 }
+    },
+    {
+      "src": "/images/Soziokratie_Chapter/Soziokratie_Chapter_9+10.svg",
+      "after": { "item": 9 },
+      "through": { "item": 10 }
+    },
+    {
+      "src": "/images/Soziokratie_Chapter/Soziokratie_Chapter_13+14.svg",
+      "after": { "item": 13 },
+      "through": { "item": 14 }
+    },
+    {
+      "src": "/images/Soziokratie_Chapter/Soziokratie_Chapter_15+15-1.svg",
+      "after": { "item": 15 },
+      "through": { "item": 15, "comment": 1 }
+    },
+    {
+      "src": "/images/Soziokratie_Chapter/Soziokratie_Chapter_15-7+16.svg",
+      "after": { "item": 15, "comment": 7 },
+      "through": { "item": 16 }
+    },
+    {
+      "src": "/images/Soziokratie_Chapter/Soziokratie_Chapter_17+18.svg",
+      "after": { "item": 17 },
+      "through": { "item": 18 }
+    },
+    {
+      "src": "/images/Soziokratie_Chapter/Soziokratie_Chapter_19+20.svg",
+      "after": { "item": 19 },
+      "through": { "item": 20 }
     }
-  },
-  {
-    "imageSrc": "/images/Soziokratie/Soziokratie_5.svg",
-    "commentSource": null,
-    "question": {
-      "questionText": null,
-      "answer1": null,
-      "answer2": null,
-      "questionPosition": null
-    }
-  },
-  {
-    "imageSrc": "/images/Soziokratie/Soziokratie_6.svg",
-    "commentSource": "/images/Soziokratie_Comments/Soziokratie_Comment_6.svg",
-    "question": {
-      "questionText": null,
-      "answer1": null,
-      "answer2": null,
-      "questionPosition": null
-    }
-  },
-  {
-    "imageSrc": "/images/Soziokratie/Soziokratie_7.svg",
-    "commentSource": null,
-    "question": {
-      "questionText": null,
-      "answer1": null,
-      "answer2": null,
-      "questionPosition": null
-    }
-  },
-  {
-    "imageSrc": "/images/Soziokratie/Soziokratie_8.svg",
-    "commentSource": null,
-    "question": {
-      "questionText": null,
-      "answer1": null,
-      "answer2": null,
-      "questionPosition": null
-    }
-  },
-  {
-    "imageSrc": "/images/Soziokratie/Soziokratie_9.svg",
-    "commentSource": null,
-    "question": {
-      "questionText": null,
-      "answer1": null,
-      "answer2": null,
-      "questionPosition": null
-    }
-  }
-]
+  ],
+  "chapterMilestones": [
+    { "item": 1, "comment": 1 },
+    { "item": 5, "comment": 1 },
+    { "item": 9, "comment": 1 },
+    { "item": 13, "comment": 1 },
+    { "item": 15, "comment": 1 },
+    { "item": 15, "comment": 8 },
+    { "item": 17, "comment": 1 },
+    { "item": 19, "comment": 1 }
+  ]
+}

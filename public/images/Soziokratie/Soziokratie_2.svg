@@ -607,6 +607,9 @@
       </g>
     </pattern>
   </defs>
+  <g id="Weißer_Hintergründe" data-name="Weißer Hintergründe">
+    <rect class="cls-13" width="1920" height="1080"/>
+  </g>
   <g id="BG_Ebene">
     <rect class="cls-8" x="-5.50353" y="-63.439846" width="1932.234342" height="600.102499"/>
   </g>

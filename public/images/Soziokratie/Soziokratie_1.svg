@@ -579,6 +579,9 @@
     <pattern id="Blau_Weiß_Vertikal-32" data-name="Blau Weiß Vertikal" patternTransform="translate(2183.36337 3778.687249) scale(.675581)" xlink:href="#Blau_Weiß_Vertikal"/>
     <pattern id="Blau_Weiß_Vertikal-33" data-name="Blau Weiß Vertikal" patternTransform="translate(2946.562441 -1171.045063) scale(.79218 -.180341)" xlink:href="#Blau_Weiß_Vertikal"/>
   </defs>
+  <g id="Weißer_Hintergründe" data-name="Weißer Hintergründe">
+    <rect class="cls-41" width="1920" height="1080"/>
+  </g>
   <g id="BG_Ebene">
     <rect class="cls-39" x="-25.873342" y="-27.224786" width="1960.628402" height="1137.624178"/>
   </g>

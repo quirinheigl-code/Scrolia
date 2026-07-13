@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_03_Ebene" data-name="03_Ebene" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 546.506675 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #0036ff;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #0036ff;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <circle class="cls-2" cx="462.487494" cy="448.028244" r="237.079324"/>
+      <rect class="cls-2" x="190.001634" y="463.795929" width="544.89456" height="467.389386" transform="translate(1159.939535 235.041708) rotate(90)"/>
+      <rect class="cls-2" x="190.001634" y="648.213979" width="544.89456" height="98.553285" transform="translate(1159.939535 235.041708) rotate(90)"/>
+      <rect class="cls-2" x="5.583583" y="648.213979" width="544.89456" height="98.553285" transform="translate(975.521485 419.459758) rotate(90)"/>
+      <rect class="cls-2" x="191.216263" y="414.568623" width="542.542462" height="66.919242" transform="translate(924.974987 896.056488) rotate(-180)"/>
+      <rect class="cls-2" x="163.601145" y="929.046087" width="597.772698" height="107.811056"/>
+    </g>
+    <rect class="cls-2" x="372.414003" y="166.857144" width="178.167658" height="61.003316"/>
+  </g>
+  <g>
+    <g>
+      <circle class="cls-1" cx="472.487494" cy="438.028244" r="237.079324"/>
+      <rect class="cls-1" x="200.001634" y="453.795929" width="544.89456" height="467.389386" transform="translate(1159.939535 215.041708) rotate(90)"/>
+      <rect class="cls-1" x="200.001634" y="638.213979" width="544.89456" height="98.553285" transform="translate(1159.939535 215.041708) rotate(90)"/>
+      <rect class="cls-1" x="15.583583" y="638.213979" width="544.89456" height="98.553285" transform="translate(975.521485 399.459758) rotate(90)"/>
+      <rect class="cls-1" x="201.216263" y="404.568623" width="542.542462" height="66.919242" transform="translate(944.974987 876.056488) rotate(-180)"/>
+      <rect class="cls-1" x="173.601145" y="919.046087" width="597.772698" height="107.811056"/>
+    </g>
+    <rect class="cls-1" x="382.414003" y="156.857144" width="178.167658" height="61.003316"/>
+  </g>
+</svg>
