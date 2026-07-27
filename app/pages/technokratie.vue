@@ -12,6 +12,7 @@ const scrollStory = ref<{ scrollToChapter: (chapter: number) => void } | null>(n
     <ScrollStory
       ref="scrollStory"
       data-src="/data/technokratie.json"
+      story-name="technokratie"
       :bubble-component="TechnokratieQuestionBubble"
       end-back-top="/images/Asstets/Technokratie_BackTop.svg"
       end-ideale="/images/Asstets/Technokratie_Ideale.svg"

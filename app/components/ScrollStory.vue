@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Component } from 'vue'
+import type { Scrollytelling } from '~/composables/surveyAnswers'
 import QuestionBubble from './QuestionBubble.vue'
 
 interface QuestionData {
@@ -83,6 +84,8 @@ const props = withDefaults(
     footerSrc?: string
     // Tint the footer's About/Kontakt/Impressum links take on while clicked.
     footerLinkActiveColor?: string
+    // Identifies this story's answers in Supabase (survey_answers.scrollytelling).
+    storyName?: Scrollytelling
   }>(),
   { bubbleComponent: () => QuestionBubble, endConclusion: () => [] }
 )
@@ -799,8 +802,34 @@ function questionSide(question: QuestionData): 'left' | 'right' {
 
 const dismissedQuestions = reactive<Record<number, boolean>>({})
 
-function onAnswer(index: number) {
+// 1-based position among only the pages that actually have a question —
+// e.g. "question_number" 1 is whichever page's question appears first in
+// the story, regardless of that page's own item index.
+const questionNumberByPageIndex = computed<Map<number, number>>(() => {
+  const map = new Map<number, number>()
+  let count = 0
+  pages.value.forEach((page, index) => {
+    if (page.question) {
+      count += 1
+      map.set(index, count)
+    }
+  })
+  return map
+})
+
+function onAnswer(index: number, choice: 'answer1' | 'answer2') {
   dismissedQuestions[index] = true
+
+  const question = pages.value[index]?.question
+  const questionNumber = questionNumberByPageIndex.value.get(index)
+  if (!question || questionNumber === undefined || !props.storyName) return
+
+  saveSurveyAnswer({
+    scrollytelling: props.storyName,
+    questionNumber,
+    choice,
+    text: (choice === 'answer1' ? question.answer1 : question.answer2) ?? ''
+  })
 }
 
 // Mounted for the whole time the reader is dwelling on (or past) the very
@@ -901,7 +930,7 @@ defineExpose({ scrollToChapter })
             :progress="questionProgress(index)"
             :exit-progress="questionExitProgress(index)"
             :side="questionSide(page.question)"
-            @answer="onAnswer(index)"
+            @answer="onAnswer(index, $event)"
           />
         </div>
       </template>

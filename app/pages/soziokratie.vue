@@ -10,6 +10,7 @@ const scrollStory = ref<{ scrollToChapter: (chapter: number) => void } | null>(n
     <ScrollStory
       ref="scrollStory"
       data-src="/data/soziokratie.json"
+      story-name="soziokratie"
       end-back-top="/images/Asstets/Soziokratie_BackTop.svg"
       end-ideale="/images/Asstets/Soziokratie_Ideale.svg"
       end-weiter="/images/Asstets/Soziokratie_Weiter.svg"
