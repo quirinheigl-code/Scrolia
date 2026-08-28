@@ -22,11 +22,15 @@ const scrollStory = ref<{ scrollToChapter: (chapter: number) => void } | null>(n
       footer-link-active-color="#CCD7FF"
       :end-conclusion="['/images/Soziokratie/Soziokratie_End_22-1.svg', '/images/Soziokratie/Soziokratie_End_22-2.svg']"
       :spectrum-step-index="1"
-      spectrum-fill-color="#0036FF"
+      spectrum-fill-color="#99AFFF"
+      spectrum-background-color="#CCD7FF"
+      feedback-src="/images/Feedback/Soziokratie_Feedback.svg"
+      feedback-story-label="Soziokratie"
       @update:current-chapter="currentChapter = $event"
       @update:conclusion-started="conclusionStarted = $event"
     />
     <ChapterProgressBar
+      v-if="!conclusionStarted"
       class="story-page__progress"
       :current-chapter="currentChapter"
       icon-base-path="/images/Soziokratie_ProgressBar/Soziokratie_currentChapter"

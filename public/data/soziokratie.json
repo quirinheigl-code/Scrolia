@@ -44,7 +44,7 @@
       "imageSrc": "/images/Soziokratie/Soziokratie_5.svg",
       "commentSource": "/images/Soziokratie_Comments/Soziokratie_Comment_5.svg",
       "question": {
-        "questionText": "Bist du lieber ständig zusammen als alleine zu sein?",
+        "questionText": "Bist du lieber ständig zusammen als immer alleine?",
         "answer1": "Zusammen",
         "answer2": "Alleine",
         "questionPosition": {
@@ -173,9 +173,9 @@
         "/images/Soziokratie_Comments/Soziokratie_Comment_15-8.svg"
       ],
       "question": {
-        "questionText": "Ist politische Beteiligung für sich eine Belastung oder ein Recht?",
-        "answer1": "Belastung",
-        "answer2": "Recht",
+        "questionText": "Ist politische Beteiligung für sich ein Recht oder eine Belastung?",
+        "answer1": "Recht",
+        "answer2": "Belastung",
         "questionPosition": {
           "x": 100,
           "y": 100

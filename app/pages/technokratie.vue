@@ -25,11 +25,15 @@ const scrollStory = ref<{ scrollToChapter: (chapter: number) => void } | null>(n
       footer-link-active-color="#CCE9CC"
       :end-conclusion="['/images/Technokratie/Technokratie_End_26-1.svg', '/images/Technokratie/Technokratie_End_26-2.svg']"
       :spectrum-step-index="1"
-      spectrum-fill-color="#009002"
+      spectrum-fill-color="#99D39A"
+      spectrum-background-color="#CCE9CC"
+      feedback-src="/images/Feedback/Technokratie_Feedback.svg"
+      feedback-story-label="Technokratie"
       @update:current-chapter="currentChapter = $event"
       @update:conclusion-started="conclusionStarted = $event"
     />
     <ChapterProgressBar
+      v-if="!conclusionStarted"
       class="story-page__progress"
       :current-chapter="currentChapter"
       icon-base-path="/images/Technokratie_ProgressBar/Technokratie_currentChapter"

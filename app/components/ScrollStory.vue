@@ -78,6 +78,9 @@ const props = withDefaults(
     // draggable-spectrum frame instead of a plain image.
     spectrumStepIndex?: number
     spectrumFillColor?: string
+    // The page's own flat canvas color, e.g. matching StoryHeader's `color`
+    // — needed by the spectrum frame's submit-button press animation.
+    spectrumBackgroundColor?: string
     // Site footer (About/Kontakt/Impressum) — slides up into view after one
     // final deliberate scroll past everything else, then just stays there
     // like an ordinary page footer.
@@ -86,6 +89,12 @@ const props = withDefaults(
     footerLinkActiveColor?: string
     // Identifies this story's answers in Supabase (survey_answers.scrollytelling).
     storyName?: Scrollytelling
+    // Replaces the spectrum frame (same slot, same layering) once its
+    // submit button is clicked.
+    feedbackSrc?: string
+    // Matches the Zustimmungsrate asset filenames exactly (e.g.
+    // "Soziokratie") and is used in the feedback sentence itself.
+    feedbackStoryLabel?: string
   }>(),
   { bubbleComponent: () => QuestionBubble, endConclusion: () => [] }
 )
@@ -130,6 +139,21 @@ const emit = defineEmits<{
   'update:currentChapter': [value: number]
   'update:conclusionStarted': [value: boolean]
 }>()
+
+// The spectrum frame's submit button replaces it with this, in the same
+// slot — no close interaction back to the spectrum yet.
+const feedbackVisible = ref(false)
+const feedbackAntwort1Count = ref(0)
+// This browser's own spectrum slider positions at submit time (0..1 per
+// row) — shown back to them on the feedback screen, never persisted.
+const feedbackSpectrumValues = ref<number[]>([])
+async function onFeedbackSubmit(spectrumValues: number[]) {
+  feedbackSpectrumValues.value = spectrumValues
+  if (props.storyName) {
+    feedbackAntwort1Count.value = await fetchOwnAntwort1Count(props.storyName)
+  }
+  feedbackVisible.value = true
+}
 
 const items = ref<StoryItem[]>([])
 const chapters = ref<ChapterData[]>([])
@@ -944,6 +968,7 @@ defineExpose({ scrollToChapter })
           v-if="endBackTop"
           :href="route.path"
           class="scroll-story__end-link scroll-story__end-link--back-top"
+          :class="{ 'scroll-story__end-link--back-top-shifted': conclusionStarted }"
           aria-label="Zurück zum Seitenanfang"
           @mousemove="onEndLinkHover('back-top', $event)"
           @mouseleave="onEndLinkLeave"
@@ -989,10 +1014,21 @@ defineExpose({ scrollToChapter })
           class="scroll-story__conclusion"
           :style="conclusionLayerStyle(index)"
         >
+          <FeedbackFrame
+            v-if="index === spectrumStepIndex && feedbackVisible && feedbackSrc && feedbackStoryLabel"
+            :background-src="feedbackSrc"
+            :story-label="feedbackStoryLabel"
+            :count="feedbackAntwort1Count"
+            :background-color="spectrumBackgroundColor ?? '#ffffff'"
+            :fill-color="spectrumFillColor ?? '#0036ff'"
+            :spectrum-values="feedbackSpectrumValues"
+          />
           <SpectrumConclusionFrame
-            v-if="index === spectrumStepIndex"
+            v-else-if="index === spectrumStepIndex"
             :background-src="src"
             :fill-color="spectrumFillColor ?? '#0036ff'"
+            :background-color="spectrumBackgroundColor ?? '#ffffff'"
+            @submit="onFeedbackSubmit"
           />
           <img v-else :src="src" class="scroll-story__conclusion-image" alt="" />
         </div>
@@ -1008,6 +1044,7 @@ defineExpose({ scrollToChapter })
             v-if="endBackTop"
             :href="route.path"
             class="scroll-story__end-link scroll-story__end-link--back-top"
+            :class="{ 'scroll-story__end-link--back-top-shifted': conclusionStarted }"
             aria-label="Zurück zum Seitenanfang"
             @mousemove="onEndLinkHover('back-top', $event)"
             @mouseleave="onEndLinkLeave"
@@ -1121,6 +1158,14 @@ defineExpose({ scrollToChapter })
      sets --footer-push) — kept transition-free so both track scroll 1:1.
      The interactive scale lives on the img inside. */
   transform: translateY(calc(50% + var(--float) - var(--footer-push, 0px)));
+  transition: left 0.3s ease;
+}
+
+/* Once the conclusion sequence starts (endConclusion[0] is showing), the
+   chapter progress bar it used to share the left edge with is hidden — slide
+   over to reclaim that space. */
+.scroll-story__end-link--back-top-shifted {
+  left: 20px;
 }
 
 .scroll-story__end-link-img {
