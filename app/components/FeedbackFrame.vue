@@ -42,6 +42,24 @@ const QUESTIONS_BOX = { x: 242.5, y: 99.5, width: 653.703, height: 890.199 }
 const IDEALS_BOX = { x: 916.602, y: 99.5, width: 751.797, height: 767.801 }
 const SHARE_BOX = { x: 1565, y: 886, width: 103, height: 103 }
 
+// The baked-in share icon has no click behaviour of its own — this hands it
+// off to whatever the browser's own share affordance is: the native share
+// sheet where supported (iOS/Android/most desktop browsers today), falling
+// back to just copying the link where it isn't (e.g. older desktop Firefox).
+async function onShareClick() {
+  const shareData = { title: document.title, url: window.location.href }
+  if (navigator.share) {
+    try {
+      await navigator.share(shareData)
+    } catch {
+      // User cancelled the share sheet, or the platform rejected it — either
+      // way there's nothing useful to recover into, so this is a silent no-op.
+    }
+    return
+  }
+  await navigator.clipboard?.writeText(shareData.url)
+}
+
 const SHIFT_UP = 15
 
 // Moves a box up by re-pointing its own nested-viewport position (x/y),
@@ -213,11 +231,13 @@ function idealsRowCover(row: IdealsRow) {
 
     <rect v-bind="eraseBox(SHARE_BOX)" :fill="backgroundColor" />
     <svg
+      class="feedback-frame__share"
       :x="SHARE_BOX.x"
       :y="shiftY(SHARE_BOX.y)"
       :width="SHARE_BOX.width"
       :height="SHARE_BOX.height"
       :viewBox="`${SHARE_BOX.x} ${SHARE_BOX.y} ${SHARE_BOX.width} ${SHARE_BOX.height}`"
+      @click="onShareClick"
     >
       <image :href="backgroundSrc" x="0" y="0" width="1920" height="1080" />
     </svg>
@@ -229,5 +249,9 @@ function idealsRowCover(row: IdealsRow) {
   width: 100%;
   height: 100%;
   display: block;
+}
+
+.feedback-frame__share {
+  cursor: pointer;
 }
 </style>
